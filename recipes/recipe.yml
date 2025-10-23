@@ -17,9 +17,14 @@ modules:
     repos:
       copr:
         - scottames/ghostty
+      rpmfusion: 
+        - 
     install:
       packages:
-        - akmod-nvidia
+        - distrobox
+        - fastfetch
+        - libavcodec-freeworld
+        - mpv
     remove:
       packages:
         - firefox
